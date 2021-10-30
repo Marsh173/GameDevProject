@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: 4f37cb4025de5304580056d63602797d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -907930228044894708
+    second: Crouch-Sheet_0
+  - first:
+      213: -1868853367690783081
+    second: Crouch-Sheet_1
+  - first:
+      213: 4220510265214342017
+    second: Crouch-Sheet_2
+  - first:
+      213: -4380942309728880918
+    second: Crouch-Sheet_3
+  - first:
+      213: 7165503485930354995
+    second: Crouch-Sheet_4
+  - first:
+      213: -1835195160217161988
+    second: Crouch-Sheet_5
+  - first:
+      213: -3341453237687887693
+    second: Crouch-Sheet_6
+  - first:
+      213: -3951399194701326863
+    second: Crouch-Sheet_7
+  - first:
+      213: 5202589002463076309
+    second: Crouch-Sheet_8
+  - first:
+      213: 7759602382399344094
+    second: Crouch-Sheet_9
+  - first:
+      213: -1542763221251482927
+    second: Crouch-Sheet_10
+  - first:
+      213: 3480728590550527730
+    second: Crouch-Sheet_11
+  - first:
+      213: -5877680173879182279
+    second: Crouch-Sheet_12
+  - first:
+      213: 6678415671211863670
+    second: Crouch-Sheet_13
+  - first:
+      213: 6892366737641022599
+    second: Crouch-Sheet_14
+  - first:
+      213: 5386046315863031244
+    second: Crouch-Sheet_15
+  - first:
+      213: -5893895456333616169
+    second: Crouch-Sheet_16
+  - first:
+      213: -5540525829113143751
+    second: Crouch-Sheet_17
+  - first:
+      213: 1014584032112309979
+    second: Crouch-Sheet_18
+  - first:
+      213: 8372961678054868947
+    second: Crouch-Sheet_19
+  - first:
+      213: -6921311393309526301
+    second: Crouch-Sheet_20
+  - first:
+      213: 4884942148925021965
+    second: Crouch-Sheet_21
+  - first:
+      213: -2981230348445996720
+    second: Crouch-Sheet_22
+  - first:
+      213: 6789039510874957996
+    second: Crouch-Sheet_23
+  - first:
+      213: -763551563662050306
+    second: Crouch-Sheet_24
+  - first:
+      213: -3803814088259550466
+    second: Crouch-Sheet_25
+  - first:
+      213: -5652207298378502573
+    second: Crouch-Sheet_26
+  - first:
+      213: -5321681021136331798
+    second: Crouch-Sheet_27
+  - first:
+      213: 6343904599795881413
+    second: Crouch-Sheet_28
+  - first:
+      213: 2278685339982161323
+    second: Crouch-Sheet_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Crouch-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 9791
+        width: 899
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e6b8c94426663f0800000000000000
+      internalID: -907930228044894708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 9791
+        width: 900
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7969f7183cf7016e0800000000000000
+      internalID: -1868853367690783081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 9791
+        width: 887
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1839df899b3429a30800000000000000
+      internalID: 4220510265214342017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 6392
+        y: 9792
+        width: 860
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae671273e24c333c0800000000000000
+      internalID: -4380942309728880918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8338
+        y: 9796
+        width: 837
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339b3bbb47bf07360800000000000000
+      internalID: 7165503485930354995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 7878
+        width: 820
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe6dbd99b31886e0800000000000000
+      internalID: -1835195160217161988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 7878
+        width: 821
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8d80eebf5c0a1d0800000000000000
+      internalID: -3341453237687887693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 7878
+        width: 826
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5101a2e5fc929c0800000000000000
+      internalID: -3951399194701326863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6442
+        y: 7873
+        width: 826
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df5a2c122f433840800000000000000
+      internalID: 5202589002463076309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 7867
+        width: 827
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd00313145afab60800000000000000
+      internalID: 7759602382399344094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 5943
+        width: 832
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da94c03601079ae0800000000000000
+      internalID: -1542763221251482927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 5943
+        width: 837
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe6f4f16380e4030800000000000000
+      internalID: 3480728590550527730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4485
+        y: 5943
+        width: 866
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c339ce5094e6ea0800000000000000
+      internalID: -5877680173879182279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6381
+        y: 5940
+        width: 890
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e2cf05baf7eac50800000000000000
+      internalID: 6678415671211863670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 8287
+        y: 5939
+        width: 905
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784afc2d70b96af50800000000000000
+      internalID: 6892366737641022599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4019
+        width: 910
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd31d876941fba40800000000000000
+      internalID: 5386046315863031244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 4020
+        width: 900
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db22f54f4da43ea0800000000000000
+      internalID: -5893895456333616169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 4025
+        width: 888
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e95d60d191c13b0800000000000000
+      internalID: -5540525829113143751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 6403
+        y: 4030
+        width: 866
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd676dc3dc6841e00800000000000000
+      internalID: 1014584032112309979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 8343
+        y: 4042
+        width: 844
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d74b6ac84cb23470800000000000000
+      internalID: 8372961678054868947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2123
+        width: 826
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6fbed55ff82ff90800000000000000
+      internalID: -6921311393309526301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 2123
+        width: 821
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f520fb00dcac340800000000000000
+      internalID: 4884942148925021965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 2119
+        width: 821
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05923471bca80a6d0800000000000000
+      internalID: -2981230348445996720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 6442
+        y: 2118
+        width: 821
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82bcb1773873e50800000000000000
+      internalID: 6789039510874957996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 8360
+        y: 2118
+        width: 821
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbba38f5e15765f0800000000000000
+      internalID: -763551563662050306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 194
+        width: 827
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2c9ad7d33263bc0800000000000000
+      internalID: -3803814088259550466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 194
+        width: 854
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e6747a8635f81b0800000000000000
+      internalID: -5652207298378502573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 194
+        width: 883
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb1b378e479526b0800000000000000
+      internalID: -5321681021136331798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 6347
+        y: 194
+        width: 905
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5dccf3f931a0850800000000000000
+      internalID: 6343904599795881413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crouch-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 8259
+        y: 194
+        width: 911
+        height: 1299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5e6846e348f9f10800000000000000
+      internalID: 2278685339982161323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
