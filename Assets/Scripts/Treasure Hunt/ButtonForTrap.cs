@@ -13,10 +13,13 @@ public class ButtonForTrap : MonoBehaviour
 
     bool pressButton;
 
+    private AudioSource audioSource;
+
     private void Awake()
     {
         cap = GetComponent<CircleCollider2D>();
         cap.isTrigger = true;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -54,6 +57,8 @@ public class ButtonForTrap : MonoBehaviour
 
     void DoPress()
     {
+        audioSource.Play();
         Destroy(trap);
+        pressE.gameObject.SetActive(false);
     }
 }

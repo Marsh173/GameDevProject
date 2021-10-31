@@ -12,12 +12,14 @@ public class openBasement : MonoBehaviour
 
     BoxCollider2D box;
 
+    private AudioSource audioSource;
     bool close_to_door;
 
     private void Awake()
     {
         box = GetComponent<BoxCollider2D>();
         close_to_door = false;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -36,8 +38,10 @@ public class openBasement : MonoBehaviour
 
     void open()
     {
-        Destroy(gameObject);
-        Destroy(axe);
+        audioSource.Play();
+        Destroy(gameObject,0.4f);
+        Destroy(axe,0.4f);
+        openDoor.gameObject.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

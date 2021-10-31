@@ -12,6 +12,7 @@ TagManager:
   - Medicine
   - slot
   - ClickButton
+  - Box
   layers:
   - Default
   - TransparentFX

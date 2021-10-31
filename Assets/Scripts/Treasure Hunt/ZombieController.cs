@@ -29,12 +29,18 @@ public class ZombieController : MonoBehaviour
     //pills
     public static int count = 0;
 
+    //music
+    public AudioClip footstep_grass;
+    public AudioClip footstep_wood;
+    private AudioSource footstep;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         cap = GetComponent<CapsuleCollider2D>();
         box = GetComponent<BoxCollider2D>();
+        footstep = GetComponent<AudioSource>();
         pillCount.text = "Goal: Get Green Pills: " + count + "/5";
     }
 
@@ -135,5 +141,20 @@ public class ZombieController : MonoBehaviour
 
     }
 
+    private void Footstep()
+    {
+        if(onGrass.IsOnGrass)
+        {
+            
+            footstep.clip = footstep_grass;
+            footstep.Play();
+        }
+        else
+        {
+            footstep.clip = footstep_wood;
+            footstep.Play();
+        }
+        
+    }
         
 }

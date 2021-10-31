@@ -11,6 +11,8 @@ public class GetPill : MonoBehaviour
     bool pickUp;
     CapsuleCollider2D cap;
 
+    public AudioSource audioSource;
+
     private void Awake()
     {
         cap = GetComponent<CapsuleCollider2D>();
@@ -27,6 +29,7 @@ public class GetPill : MonoBehaviour
         if(pickUp && Input.GetKeyDown(KeyCode.E))
         {
             getPill();
+            EtoGet.gameObject.SetActive(false);
         }
     }
 
@@ -51,8 +54,10 @@ public class GetPill : MonoBehaviour
 
     void getPill()
     {
-        Destroy(gameObject);
+        audioSource.Play();
+        Destroy(gameObject,0.4f);
         ZombieController.count++;
+        
     }
 
 

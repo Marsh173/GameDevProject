@@ -20,9 +20,12 @@ public class Door : MonoBehaviour
 
     public static bool unlock = false;
 
+    public AudioSource audioSource;
+
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -73,10 +76,12 @@ public class Door : MonoBehaviour
 
     void Open()
     {
-        Destroy(gameObject);
-        Destroy(the_actual_door);
+        audioSource.Play();
+        Destroy(gameObject,0.4f);
+        Destroy(the_actual_door,0.4f);
         barn_floor.gameObject.SetActive(true);
-        
+        locked.gameObject.SetActive(false);
+        unlock_door.gameObject.SetActive(false);
     }
 
 

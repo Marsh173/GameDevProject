@@ -12,10 +12,12 @@ public class colorChange : MonoBehaviour
     CapsuleCollider2D capCollider;
     //SpriteRenderer spriteRender;
 
+    public AudioSource audioSource;
     private void Awake()
     {
         capCollider = GetComponent<CapsuleCollider2D>();
         capCollider.isTrigger = true;
+        audioSource = GetComponent<AudioSource>();
 
        // spriteRender = GetComponent<SpriteRenderer>();
     }
@@ -30,7 +32,10 @@ public class colorChange : MonoBehaviour
     {
         if(pickUp && Input.GetKeyDown(KeyCode.E))
         {
+            audioSource.Play();
             DoPickUp();
+            pressE.gameObject.SetActive(false);
+
         }
     }
 
@@ -58,8 +63,9 @@ public class colorChange : MonoBehaviour
 
     void DoPickUp()
     {
-        Destroy(gameObject);
+        Destroy(gameObject,0.3f);
         Door.unlock = true;
+        
     }
 
 }
