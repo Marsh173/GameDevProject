@@ -13,6 +13,7 @@ TagManager:
   - slot
   - ClickButton
   - Box
+  - GridSystem
   layers:
   - Default
   - TransparentFX
